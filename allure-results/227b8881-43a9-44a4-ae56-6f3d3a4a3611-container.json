@@ -1,0 +1,1 @@
+{"uuid":"227b8881-43a9-44a4-ae56-6f3d3a4a3611","name":"com.qa.AmazonTestCases.StartStopDriverTest.tearDown","description":"","start":1555856241091,"stop":1555856242268,"children":["1880c3d6-fdc6-45de-b904-5ca14754e163"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1555856241091,"stop":1555856242266}]}

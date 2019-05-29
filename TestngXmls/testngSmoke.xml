@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+       <listener class-name="Resources.Listeners"/>
+ </listeners>
+  <test name="SmokeTests">
+ <groups>
+ <run>
+ <include name="smoke"/>
+ </run>
+ </groups>
+<classes>
+    <class name="com.qa.AmazonTestCases.StartStopDriverTest"/>
+     <class name="com.qa.AmazonTestCases.AmazonHomePageAfterSignInTest">
+     <methods>
+      <exclude name="clickOnShopByCategoryOption"/>
+      </methods>
+      </class>
+      <class name="com.qa.AmazonTestCases.ProductTest">
+      <methods>
+      <include name="printText"/>
+      </methods>
+      </class>
+    </classes>
+  <!-- <packages>
+   <package name="com.qa.AmazonTestCases"/>
+       </packages> -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

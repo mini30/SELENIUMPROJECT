@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.AmazonTestCases.ProductTest">
+        <methods>
+          <include name="printText"/>
+          <include name="clickOnGivenTextOnSearchBox"/>
+          <include name="initialzePageObjectsAndMethodsInLoginPage"/>
+        </methods>
+      </class> <!-- com.qa.AmazonTestCases.ProductTest -->
+      <class name="com.qa.AmazonTestCases.AmazonHomePageTest">
+        <methods>
+          <include name="clickONHelloSignOnAndSignOn"/>
+          <include name="initialzePageObjectsAndMethodsInHomePage"/>
+        </methods>
+      </class> <!-- com.qa.AmazonTestCases.AmazonHomePageTest -->
+      <class name="com.qa.AmazonTestCases.StartStopDriverTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.qa.AmazonTestCases.StartStopDriverTest -->
+      <class name="com.qa.AmazonTestCases.AmazonHomePageAfterSignInTest">
+        <methods>
+          <include name="clickOnShopByCategoryOption"/>
+          <include name="setUpandInitialize"/>
+          <include name="validateContentOnHomePage"/>
+        </methods>
+      </class> <!-- com.qa.AmazonTestCases.AmazonHomePageAfterSignInTest -->
+      <class name="com.qa.AmazonTestCases.AmazonLoginTest">
+        <methods>
+          <include name="enterCredentialsOnLoginPage"/>
+          <include name="initialzePageObjectsAndMethodsInLoginPage"/>
+        </methods>
+      </class> <!-- com.qa.AmazonTestCases.AmazonLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

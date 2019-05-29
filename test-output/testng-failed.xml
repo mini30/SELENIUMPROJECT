@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="RegresssionTests(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.AmazonTestCases.ProductTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="clickOnGivenTextOnSearchBox"/>
+          <include name="setUpSuite"/>
+          <include name="initialzePageObjectsAndMethodsInLoginPage"/>
+        </methods>
+      </class> <!-- com.qa.AmazonTestCases.ProductTest -->
+    </classes>
+  </test> <!-- RegresssionTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
