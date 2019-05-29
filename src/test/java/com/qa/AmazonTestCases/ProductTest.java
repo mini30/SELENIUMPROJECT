@@ -42,6 +42,7 @@ public class ProductTest extends StartStopDriverTest {
 		loginpageobject=new AmazonLoginPage(driver);
 		products=new ProductsPage(driver);
 		logger.pass("initialize successfully");
+	    logger.pass("initialize successlly");
     }
    
    @Test(groups="smoke")
