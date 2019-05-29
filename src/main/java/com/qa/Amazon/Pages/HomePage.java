@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.AmazonPageObjects.AmazonHomePage;
 import com.qa.AmazonPageObjects.AmazonLoginPage;
-
+//imorts
 public class HomePage {
 	public WebDriver driver;
 	public AmazonHomePage homepage;
